@@ -54,7 +54,7 @@ int main() {
 
     quickSort(a, 0, N);
 
-    printf("Merge Sort : ");
+    printf("Quick Sort : ");
     printArr(a);
     return 0;
 }
