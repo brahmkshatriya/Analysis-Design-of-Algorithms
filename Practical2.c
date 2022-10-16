@@ -13,7 +13,7 @@ void printArr(int a[]) {
     printf(" }\n");
 }
 
-void selectionSort(int *a) {
+void insertionSort(int *a) {
     for (int step = 1; step < N; step++) {
         int key = a[step], j;
 
